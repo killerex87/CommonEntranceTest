@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MP.master.cs" Inherits="CommonEntranceTest.MP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <title>Government College Mandya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            height: 33px;
+            font-size: large;
+            width: 711px;
+        }
+        .style6
+        {
+            height: 439px;
+            width: 125px;
+        }
+        .style7
+        {
+            height: 439px;
+            width: 711px;
+        }
+        .style8
+        {
+            height: 33px;
+            width: 125px;
+        }
+        .style9
+        {
+            width: 125px;
+        }
+    </style>
+</head>
+<body>
+ <div id="nav">
+    <nav class="navbar navbar-default navbar-static affix-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Home.aspx">Home</a></li>
+          <li><a href="Reg.aspx">Registration</a></li>
+          <li><a href="AdminLogIn.aspx">Admin</a></li>
+          <li><a href="StudLogIn.aspx">Students</a></li>
+          <li><a href="AboutUs.aspx">About Us</a></li>
+          
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+    </nav>
+  
+<form id="form1" runat="server">
+  <table><tr><td><asp:Image ID="Image1" runat="server" Height="236px" 
+                    ImageUrl="~/Images/3header.jpg" style="margin-left: 0px; margin-top: 0px" 
+                    Width="1350px" /></td> </tr> </table> 
+          
+            
+        
+    
+                <table style="width:100%; margin-right: 0px;">
+                    <tr bgcolor="#66CCFF">
+                        <td class="style8" bgcolor="White">
+                        </td>
+                        <td class="style2" bgcolor="White">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                        <td bgcolor="White" class="style9">  </td>
+                    </tr>
+                    <tr>
+                        <td class="style6" valign="top" bgcolor="White">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </td>
+                        <td class="style7">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                <div>
+                                    
+                                </div>
+                            </asp:ContentPlaceHolder>
+                        </td><td class="style9"></td>
+                    </tr>
+                </table>
+   
+        
+       
+   
+    </form>
+</body>
+</html>

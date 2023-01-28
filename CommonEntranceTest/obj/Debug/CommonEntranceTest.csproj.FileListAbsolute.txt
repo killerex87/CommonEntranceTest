@@ -1,0 +1,5 @@
+C:\Users\pallavi\Documents\Visual Studio 2010\Projects\CommonEntranceTest\CommonEntranceTest\obj\Debug\CommonEntranceTest.csprojResolveAssemblyReference.cache
+C:\Users\pallavi\Documents\Visual Studio 2010\Projects\CommonEntranceTest\CommonEntranceTest\bin\CommonEntranceTest.dll
+C:\Users\pallavi\Documents\Visual Studio 2010\Projects\CommonEntranceTest\CommonEntranceTest\bin\CommonEntranceTest.pdb
+C:\Users\pallavi\Documents\Visual Studio 2010\Projects\CommonEntranceTest\CommonEntranceTest\obj\Debug\CommonEntranceTest.dll
+C:\Users\pallavi\Documents\Visual Studio 2010\Projects\CommonEntranceTest\CommonEntranceTest\obj\Debug\CommonEntranceTest.pdb
